@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "551280986289",
+    "firebase_url": "https://modernizedorderingsystem.firebaseio.com",
+    "project_id": "modernizedorderingsystem",
+    "storage_bucket": "modernizedorderingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551280986289:android:6389cfa15f95973a",
+        "android_client_info": {
+          "package_name": "apc.softdev.modernizedorderingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551280986289-osvhb9nej68qlpfakajn2qjp5usp8s10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apc.softdev.modernizedorderingsystem",
+            "certificate_hash": "591781f98b7cf303e50bae9615471941321ff215"
+          }
+        },
+        {
+          "client_id": "551280986289-bloleh39aaeva1urvg3mjkb6u1noflta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXobI3yK18PDETNYB8SbdPgiSv5FNwRCY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551280986289-bloleh39aaeva1urvg3mjkb6u1noflta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
