@@ -1,0 +1,7 @@
+#Fri Jul 13 14:10:01 PHT 2018
+base.0=/Users/MacBookPro/Desktop/android/ModernizedOrderingSystem/app/build/intermediates/transforms/dexMerger/debug/2
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/MacBookPro/Desktop/android/ModernizedOrderingSystem/app/build/intermediates/transforms/dexMerger/debug/1
