@@ -15,7 +15,7 @@
       },
       "oauth_client": [
         {
-		"client_id": "551280986289-osvhb9nej68qlpfakajn2qjp5usp8s10.apps.googleusercontent.com",
+          "client_id": "551280986289-osvhb9nej68qlpfakajn2qjp5usp8s10.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "apc.softdev.modernizedorderingsystem",
