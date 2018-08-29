@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/table3"
     android:orientation="vertical"
     android:paddingLeft="16dp"
     tools:context="apc.softdev.modernizedorderingsystem.MainActivity">
@@ -11,6 +12,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -26,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name Display Here"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -34,6 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email Display Here"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -47,11 +51,11 @@
 
         <SurfaceView
             android:id="@+id/cameraPreview"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="10dp"
             android:layout_width="650px"
             android:layout_height="550px"
-            android:layout_marginLeft="1dp"/>
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp" />
 
     </LinearLayout>
 
@@ -65,30 +69,33 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="38dp"
-            android:text="Scan QR Code"
+            android:layout_marginTop="8dp"
+            android:hint=" Please scan QR Code "
+            android:background="@drawable/custom_text_bg"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
             android:textSize="24sp" />
 
         <Button
             android:id="@+id/log_out"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/revoke"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/custom_button"
             android:onClick="LogOut"
             android:text="LOGOUT" />
 
         <Button
             android:id="@+id/revoke"
-            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="12dp"
-            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/txtResult"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/custom_button"
             android:onClick="Revoke"
             android:text="DEACTIVATE" />
 
