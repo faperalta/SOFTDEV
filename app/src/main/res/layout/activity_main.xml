@@ -18,8 +18,8 @@
 
         <ImageView
             android:id="@+id/photoImageView"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
             android:layout_margin="5dp"
             android:src="@drawable/avatar" />
 
@@ -27,9 +27,14 @@
             android:id="@+id/nameTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="Name Display Here"
             android:textColor="@color/white"
             android:textSize="24sp"
+=======
+            android:text="NameDisplayHere"
+            android:textSize="30sp"
+>>>>>>> origin/master
             android:textStyle="bold" />
 
         <TextView
@@ -37,8 +42,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email Display Here"
+<<<<<<< HEAD
             android:textColor="@color/white"
             android:textSize="16sp"
+=======
+            android:textSize="18sp"
+>>>>>>> origin/master
             android:textStyle="bold" />
 
         <TextView
@@ -46,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Id Display Here"
-            android:textSize="14sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
         <SurfaceView
