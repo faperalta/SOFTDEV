@@ -144,14 +144,19 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                             vibrator.vibrate(25);
                             txtResult.setText(qrcodes.valueAt(0).displayValue);
 
-
                         }
 
 
                     });
+
+
+
+
                     Proceed();
 
+
                 }
+
 
             }
 
@@ -174,8 +179,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     }
 
     private void Proceed() {
-        Intent intent = new Intent (this, MenuList.class);
-        startActivity(intent);
+        String str = txtResult.getText().toString();
+
+        Intent intent1 = new Intent(getApplicationContext(), OrderPage.class);
+        intent1.putExtra("message", str);
+
+        startActivity(intent1);
     }
 
     @Override
